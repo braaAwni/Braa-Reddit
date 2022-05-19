@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/icon.png" />
+    <link rel="stylesheet" href="/css/home.css" />
+    <link rel="stylesheet" href="/css/comment.css" />
+    <title>Comments</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <img class="logo" src="/images/logo.PNG" alt="logo" />
+        <div class="search">
+          <i class="fas fa-search icon"></i>
+          <input type="text" placeholder="Search Reddit" id="serach-input" />
+        </div>
+        <div class="btnlk">
+          <p class="username">Welcome</p>
+          <a href="/home" id="btnH">Home</a>
+          <button id="logout">Logout</button>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <div class="continer2">
+      <div>
+        <div class="post-body">
+          <!-- <section class="cont2">
+        <span class="by">Posted by Braa</span>
+    <h3 class="titlePost">what a great job</h3>
+    <p class="content">wow</p>
+     </section>  -->
+        </div>
+
+        <h3 class="title2">Comments</h3>
+
+        <div class="comentDev">
+          <!-- <section class="cont2">
+        <span class="by">Posted by Braa</span>
+    <p class="content">comments</p>
+     </section>  -->
+        </div>
+
+        <section class="create-post2">
+          <div class="posts">
+            <form class="creating-post2 item" style="display: flex">
+              <input
+                type="text"
+                name="title"
+                id="content"
+                placeholder="Add Comments"
+                required
+              />
+              <button type="button" id="saveButton">add</button>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div>
+        <div class="popular-container">
+          <div class="right">
+            <div class="communities-near">
+              <h3 class="part-title">Communities Near You</h3>
+              <div class="item">
+                <span>1</span>
+                <img
+                  src="https://styles.redditmedia.com/t5_2qhhk/styles/communityIcon_n7ckf4gv4ik11.png"
+                  alt="r/dogs"
+                />
+                <p>r/dogs</p>
+              </div>
+              <div class="item" style="border: none">
+                <span>2</span>
+                <img
+                  src="https://78.media.tumblr.com/b5d43a9ba1d096c0c052ef99e6234183/tumblr_p6ryk7f8AB1tzkxwxo1_1280.jpg"
+                  alt="r/aww"
+                />
+                <p>r/aww</p>
+              </div>
+
+              <button class="btn">View All</button>
+              <ul class="list">
+                <li>Top</li>
+                <li>News</li>
+                <li>Awww</li>
+                <li>Gaming</li>
+              </ul>
+            </div>
+
+            <div class="communities-near">
+              <div class="lists">
+                <ul class="list-all">
+                  <li>Help</li>
+                  <li>Reddit Coins</li>
+                  <li>Reddit Premium</li>
+                </ul>
+
+                <ul class="list-all">
+                  <li>About</li>
+                  <li>Careers</li>
+                  <li>Press</li>
+                  <li>Advertise</li>
+                  <li>Communities</li>
+                  <li>Terms</li>
+                  <li>Content Policy</li>
+                  <li>Privacy Policy</li>
+                  <li>Mod Policy</li>
+                </ul>
+              </div>
+              <p>Reddit Inc © 2022. All rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/comment.js"></script>
+  </body>
+</html>

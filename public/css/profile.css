@@ -1,0 +1,94 @@
+.continerProfile {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0;
+  background-color: orangered;
+  width: 300px;
+  text-align: center;
+  font-family: arial;
+  text-transform: capitalize;
+  height: 70%;
+}
+
+.title {
+  color: white;
+  font-size: 18px;
+}
+
+.continer2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.cont {
+  padding-left: 20px;
+  padding-top: 20px;
+  background-color: white;
+  width: 600px;
+  height: 200px;
+  margin-top: 15px;
+  margin-left: -70px;
+  margin-bottom: 20px;
+}
+.by {
+  color: #7e7e7e;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.title2 {
+  color: #1a1a1b;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.no-posts {
+  width: 100%;
+  box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  text-align: center;
+  color: #e54d02;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.Delete {
+  all: unset;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 450px;
+}
